@@ -22,47 +22,47 @@ function Footer() {
           {/* Column 2: Company Links */}
           <div className="col">
             <p className="fw-semibold text-muted mb-3">Company</p>
-            <a href="" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>About</a>
+            <a href="/about" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>About</a>
             <br />
-            <a href="" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Products</a>
+            <a href="/product" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Products</a>
             <br />
-            <a href="" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Pricing</a>
+            <a href="/pricing" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Pricing</a>
             <br />
-            <a href="" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Referral programme</a>
+            <a href="/signup" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Referral programme</a>
             <br />
-            <a href="" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Careers</a>
+            <a href="/about" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Careers</a>
             <br />
-            <a href="" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Zerodha.tech</a>
+            <a href="/product" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Zerodha.tech</a>
             <br />
-            <a href="" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Press & media</a>
+            <a href="/about" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Press & media</a>
             <br />
-            <a href="" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Zerodha cares (CSR)</a>
+            <a href="/about" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Zerodha cares (CSR)</a>
             <br />
           </div>
 
           {/* Column 3: Support Links */}
           <div className="col">
             <p className="fw-semibold text-muted mb-3">Support</p>
-            <a href="" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Contact</a>
+            <a href="/support" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Contact</a>
             <br />
-            <a href="" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Support portal</a>
+            <a href="/support" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Support portal</a>
             <br />
-            <a href="" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Z-Connect blog</a>
+            <a href="/about" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Z-Connect blog</a>
             <br />
-            <a href="" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>List of charges</a>
+            <a href="/pricing" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>List of charges</a>
             <br />
-            <a href="" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Downloads & resources</a>
+            <a href="/product" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Downloads & resources</a>
             <br />
           </div>
 
           {/* Column 4: Account Links */}
           <div className="col">
             <p className="fw-semibold text-muted mb-3">Account</p>
-            <a href="" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Open an account</a>
+            <a href="/signup" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Open an account</a>
             <br />
-            <a href="" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Fund transfer</a>
+            <a href="/support" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>Fund transfer</a>
             <br />
-            <a href="" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>60 day challenge</a>
+            <a href="/support" className="text-muted d-inline-block mb-2" style={{ textDecoration: "none" }}>60 day challenge</a>
             <br />
           </div>
         </div>
@@ -86,13 +86,13 @@ function Footer() {
         {/* Bottom Horizontal Compliance Footer Links Row */}
         <div className="row text-center mt-5 p-3" style={{ fontSize: "14px" }}>
           <div className="col">
-            <a href="" className="text-muted mx-3" style={{ textDecoration: "none" }}>NSE</a>
-            <a href="" className="text-muted mx-3" style={{ textDecoration: "none" }}>BSE</a>
-            <a href="" className="text-muted mx-3" style={{ textDecoration: "none" }}>MCX</a>
-            <a href="" className="text-muted mx-3" style={{ textDecoration: "none" }}>Terms & conditions</a>
-            <a href="" className="text-muted mx-3" style={{ textDecoration: "none" }}>Policies & procedures</a>
-            <a href="" className="text-muted mx-3" style={{ textDecoration: "none" }}>Privacy policy</a>
-            <a href="" className="text-muted mx-3" style={{ textDecoration: "none" }}>Disclosure</a>
+            <a href="/pricing" className="text-muted mx-3" style={{ textDecoration: "none" }}>NSE</a>
+            <a href="/pricing" className="text-muted mx-3" style={{ textDecoration: "none" }}>BSE</a>
+            <a href="/pricing" className="text-muted mx-3" style={{ textDecoration: "none" }}>MCX</a>
+            <a href="/about" className="text-muted mx-3" style={{ textDecoration: "none" }}>Terms & conditions</a>
+            <a href="/about" className="text-muted mx-3" style={{ textDecoration: "none" }}>Policies & procedures</a>
+            <a href="/about" className="text-muted mx-3" style={{ textDecoration: "none" }}>Privacy policy</a>
+            <a href="/about" className="text-muted mx-3" style={{ textDecoration: "none" }}>Disclosure</a>
           </div>
         </div>
       </div>
