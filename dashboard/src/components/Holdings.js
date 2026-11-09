@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
 import GeneralContext from "./GeneralContext";
-import axios, { all } from "axios";
 import api from "../api";
 import { VerticalGraph } from "./VerticalGraph";
 import { calcHoldingsSummary, formatMoney } from "./calc";

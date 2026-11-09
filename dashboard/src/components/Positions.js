@@ -6,15 +6,12 @@ import api from "../api";
 const Positions = () => {
   const [allPositions, setAllPositions] = useState([]);
 
-  // useEffect(() => {
-  //   axios.get("http://localhost:3002/allPositions").then((res) => {
-  //     console.log(res.data);
-  //     setAllPositions(res.data);
-  //   });
-  // }, []);
-  api.get("/allPositions").then((res) => {
-    setAllPositions(res.data);
-  });
+  useEffect(() => {
+    api
+      .get("/allPositions")
+      .then((res) => setAllPositions(res.data))
+      .catch(() => {});
+  }, []);
   return (
     <>
       <h3 className="title">Positions ({allPositions.length})</h3>
