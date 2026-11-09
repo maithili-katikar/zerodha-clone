@@ -9,11 +9,12 @@ const { validate } = require("../middleware/validate");
 const { signupSchema, loginSchema } = require("../validators/schemas");
 
 const router = express.Router();
+const isProd = process.env.NODE_ENV === "production";
 
 const cookieOptions = {
   httpOnly: true,
-  sameSite: "lax",
-  secure: process.env.NODE_ENV === "production",
+  secure: isProd,
+  sameSite: isProd ? "none" : "lax",
   maxAge: 7 * 24 * 60 * 60 * 1000,
 };
 

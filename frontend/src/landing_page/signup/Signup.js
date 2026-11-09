@@ -17,7 +17,8 @@ function Signup() {
     setLoading(true);
     try {
       await api.post("/auth/signup", form);
-      window.location.href = "http://localhost:3001";
+      window.location.href =
+  process.env.REACT_APP_DASHBOARD_URL || "http://localhost:3001";
     } catch (err) {
       setError(err.response?.data?.message || "Something went wrong");
     } finally {

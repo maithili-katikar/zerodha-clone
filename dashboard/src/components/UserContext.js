@@ -24,7 +24,8 @@ export const UserProvider = ({ children }) => {
     try {
       await api.post("/auth/logout");
     } finally {
-      window.location.href = "http://localhost:3000/login";
+      window.location.href =
+  (process.env.REACT_APP_FRONTEND_URL || "http://localhost:3000") + "/login";
     }
   };
 
